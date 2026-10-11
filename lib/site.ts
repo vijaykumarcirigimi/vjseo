@@ -9,10 +9,10 @@ export const site = {
   founder: "Vijay", // TODO: your full name as you want it shown
   email: "hello@vjseo.in",
 
-  // TODO: replace with your real number (digits only for WhatsApp, with 91 country code)
-  phoneDisplay: "+91 90000 00000",
-  phoneTel: "+919000000000",
-  whatsapp: "919000000000",
+  // Phone and WhatsApp (digits only for WhatsApp, with 91 country code)
+  phoneDisplay: "+91 98866 21210",
+  phoneTel: "+919886621210",
+  whatsapp: "919886621210",
 
   // City you actually work from (used in schema + footer)
   baseCity: "Vijayawada", // TODO: change if you are based elsewhere
