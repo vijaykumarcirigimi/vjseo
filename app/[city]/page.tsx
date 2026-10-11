@@ -44,20 +44,6 @@ export default async function CityPage({ params }: { params: Promise<{ city: str
         {city.heroImage && (
           <div className="city-hero-media">
             <Image src={city.heroImage} alt={city.heroAlt ?? `${city.name} city view`} fill priority sizes="100vw" />
-            <div className="city-hero-badges" aria-hidden="true">
-              <div className="hero-badge hero-badge-main">
-                <span className="hero-badge-pin"><Icon name="pin" size={26} /></span>
-                <div>
-                  <strong>{city.name}</strong>
-                  <span>More visibility</span>
-                  <span>More customers</span>
-                  <span>Business growth</span>
-                </div>
-              </div>
-              <div className="hero-badge hero-badge-rank"><Icon name="chart" size={16} /> Higher rankings</div>
-              <div className="hero-badge hero-badge-local"><Icon name="pin" size={16} /> Local customers</div>
-              <div className="hero-badge hero-badge-growth"><Icon name="trend" size={16} /> Business growth</div>
-            </div>
           </div>
         )}
         <Breadcrumbs

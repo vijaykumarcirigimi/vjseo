@@ -154,26 +154,23 @@ a.card:hover { box-shadow: 0 8px 24px rgba(15, 81, 50, 0.08); transform: transla
 .trust-row li + li::before { content: "•"; margin-right: 16px; color: var(--border); }
 .city-hero-media { position: relative; order: 3; aspect-ratio: 16 / 9; }
 .city-hero-media img { object-fit: cover; object-position: 78% 60%; }
-.city-hero-badges { display: none; }
 @media (min-width: 960px) {
   .city-hero.has-image { background: #fff; min-height: 500px; }
   .city-hero-media { position: absolute; inset: 0; aspect-ratio: auto; }
   .city-hero-media img { object-position: right center; }
-  .city-hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, #eaf4ef 0%, rgba(234,244,239,0.92) 28%, rgba(240,247,244,0.5) 40%, rgba(255,255,255,0) 52%); }
+  /* White wash that always covers the text column (container 1400px, 32px gutter, 600px text), then fades into the photo */
+  .city-hero-media::after {
+    content: ""; position: absolute; inset: 0;
+    --text-end: max(632px, calc(50% - 68px));
+    background: linear-gradient(90deg,
+      rgba(255,255,255,0.96) 0,
+      rgba(255,255,255,0.92) calc(var(--text-end) + 40px),
+      rgba(255,255,255,0.55) calc(var(--text-end) + 150px),
+      rgba(255,255,255,0) calc(var(--text-end) + 280px));
+  }
   .has-image .city-hero-content > * { max-width: 600px; }
   .city-hero-content { padding-top: 12px; padding-bottom: 56px; }
-  .city-hero-badges { display: block; position: absolute; inset: 0; z-index: 1; }
 }
-.hero-badge { position: absolute; display: flex; align-items: center; gap: 8px; background: rgba(255,255,255,0.95); border-radius: 10px; padding: 8px 12px; font-size: 0.8rem; font-weight: 600; color: var(--green-dark); box-shadow: 0 6px 20px rgba(16, 42, 30, 0.14); }
-.hero-badge svg { color: var(--green); }
-.hero-badge-main { left: 62%; top: 10%; align-items: flex-start; gap: 12px; padding: 14px 18px; font-weight: 400; }
-.hero-badge-main strong { display: block; font-size: 0.95rem; color: #102a1e; margin-bottom: 2px; }
-.hero-badge-main span { display: block; color: var(--muted); line-height: 1.5; }
-.hero-badge-main::after { content: ""; position: absolute; left: 22px; bottom: -8px; border: 8px solid transparent; border-bottom: 0; border-top-color: rgba(255,255,255,0.95); }
-.hero-badge-pin { color: var(--green); }
-.hero-badge-rank { right: 3%; top: 38%; }
-.hero-badge-local { right: 5%; top: 55%; }
-.hero-badge-growth { left: 60%; bottom: 13%; }
 
 /* Stats box */
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); margin: 0; background: #eef6f1; border: 1px solid #d5e8dc; border-radius: 14px; padding: 22px 8px; text-align: center; }
