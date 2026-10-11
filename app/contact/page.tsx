@@ -30,7 +30,7 @@ export default function Contact() {
             </a>
             <div className="card">
               <h3>Based in</h3>
-              <p>{site.baseCity}, {site.region} — serving all of AP</p>
+              <p>{site.baseCity}, {site.region}, serving all of AP</p>
             </div>
           </div>
 

@@ -15,7 +15,7 @@ export default function ServicesHub() {
       <Breadcrumbs items={[{ name: "Services", href: "/seo-services/" }]} />
       <PageHero
         title="SEO Services"
-        sub="Everything your business needs to rank on Google — choose a single service or a complete monthly plan."
+        sub="Everything your business needs to rank on Google, choose a single service or a complete monthly plan."
       />
       <section className="section">
         <div className="container">

@@ -14,7 +14,7 @@ export const services: Service[] = [
     name: "Local SEO",
     short: "Show up on Google Maps and \"near me\" searches in your city.",
     intro:
-      "Local SEO gets your business into the Google Maps results and the local pack — the first thing people see when they search for a service in their city. For most Andhra Pradesh businesses, this is where the phone calls come from.",
+      "Local SEO gets your business into the Google Maps results and the local pack, the first thing people see when they search for a service in their city. For most Andhra Pradesh businesses, this is where the phone calls come from.",
     includes: [
       "Google Business Profile setup, verification help and full optimisation",
       "Correct primary and secondary categories, services and service areas",
@@ -34,7 +34,7 @@ export const services: Service[] = [
     name: "Technical SEO",
     short: "Fix speed, indexing and site errors that stop Google ranking you.",
     intro:
-      "Technical SEO makes sure Google can crawl, understand and index your website — and that it loads fast on mobile data. Many AP business websites have problems here that quietly hold back every other SEO effort.",
+      "Technical SEO makes sure Google can crawl, understand and index your website, and that it loads fast on mobile data. Many AP business websites have problems here that quietly hold back every other SEO effort.",
     includes: [
       "Full crawl of your website to find broken pages, redirects and duplicates",
       "Core Web Vitals and mobile speed improvements",
@@ -53,7 +53,7 @@ export const services: Service[] = [
     name: "On-Page SEO",
     short: "Optimise every page for the keywords your customers actually search.",
     intro:
-      "On-page SEO aligns each page of your website with what customers are searching for — titles, headings, content, internal links and images — so Google knows exactly which searches each page should rank for.",
+      "On-page SEO aligns each page of your website with what customers are searching for, titles, headings, content, internal links and images, so Google knows exactly which searches each page should rank for.",
     includes: [
       "Keyword research in English and Telugu",
       "Title tags and meta descriptions that get clicks",
@@ -72,7 +72,7 @@ export const services: Service[] = [
     name: "Link Building",
     short: "Earn quality backlinks that build trust with Google.",
     intro:
-      "Backlinks from relevant, trusted websites are still one of Google's strongest ranking signals. Link building is done safely — no spammy link packages that risk a penalty.",
+      "Backlinks from relevant, trusted websites are still one of Google's strongest ranking signals. Link building is done safely, no spammy link packages that risk a penalty.",
     includes: [
       "Backlink audit of your site and competitors",
       "Local links from AP business directories, associations and news sites",
@@ -108,7 +108,7 @@ export const services: Service[] = [
     name: "E-commerce SEO",
     short: "Rank product and category pages for buyers across India.",
     intro:
-      "Online stores from Andhra Pradesh — sarees, jewellery, pickles, handicrafts, agri products — can sell across India. E-commerce SEO helps your category and product pages rank without paying for every click.",
+      "Online stores from Andhra Pradesh, sarees, jewellery, pickles, handicrafts, agri products, can sell across India. E-commerce SEO helps your category and product pages rank without paying for every click.",
     includes: [
       "Category and product page optimisation",
       "Product schema for prices, stock and reviews in search results",
@@ -124,7 +124,7 @@ export const services: Service[] = [
   {
     slug: "telugu-seo",
     name: "Telugu SEO",
-    short: "Reach customers who search in Telugu — most competitors don't.",
+    short: "Reach customers who search in Telugu, most competitors don't.",
     intro:
       "A growing share of searches in Andhra Pradesh happen in Telugu, often by voice. Very few local businesses have Telugu content, which makes it one of the easiest ways to stand out.",
     includes: [
@@ -160,7 +160,7 @@ export const services: Service[] = [
   {
     slug: "seo-audit",
     name: "SEO Audit",
-    short: "A clear report of what's holding your website back — and how to fix it.",
+    short: "A clear report of what's holding your website back, and how to fix it.",
     intro:
       "An SEO audit is a full health check of your website and Google presence. You get a prioritised list of problems and opportunities in plain language, not a 100-page tool export.",
     includes: [
@@ -180,7 +180,7 @@ export const services: Service[] = [
     name: "WordPress SEO",
     short: "Speed, plugins and setup that make WordPress sites rank.",
     intro:
-      "Most small business websites in AP run on WordPress — and many are slowed down by heavy themes and too many plugins. WordPress SEO fixes the setup so your site is fast and search-friendly.",
+      "Most small business websites in AP run on WordPress, and many are slowed down by heavy themes and too many plugins. WordPress SEO fixes the setup so your site is fast and search-friendly.",
     includes: [
       "SEO plugin setup (Yoast / Rank Math) done properly",
       "Theme and plugin clean-up for speed",

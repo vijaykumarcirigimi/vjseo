@@ -22,7 +22,7 @@ export async function sendEnquiry(_prev: FormState, formData: FormData): Promise
 
   const password = process.env.SMTP_PASSWORD;
   if (!password) {
-    console.error("SMTP_PASSWORD is not set — enquiry not emailed:", data);
+    console.error("SMTP_PASSWORD is not set, enquiry not emailed:", data);
     return { ok: false, message: "Sorry, the form isn't working right now. Please contact me on WhatsApp or email instead." };
   }
 

@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     template: `%s | ${site.name}`,
   },
   description:
-    "SEO services for businesses across Andhra Pradesh — Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore and more. Local SEO, Google Maps ranking, Telugu SEO and free SEO audits.",
+    "SEO services for businesses across Andhra Pradesh, Visakhapatnam, Vijayawada, Guntur, Tirupati, Nellore and more. Local SEO, Google Maps ranking, Telugu SEO and free SEO audits.",
   openGraph: { siteName: site.name, locale: "en_IN", type: "website" },
 };
 

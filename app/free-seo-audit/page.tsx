@@ -15,7 +15,7 @@ export default function FreeAudit() {
       <Breadcrumbs items={[{ name: "Free SEO Audit", href: "/free-seo-audit/" }]} />
       <PageHero
         title="Free SEO Audit"
-        sub="Find out exactly why your business isn't showing up on Google — and what to fix first."
+        sub="Find out exactly why your business isn't showing up on Google, and what to fix first."
       />
       <section className="section">
         <div className="container narrow">
@@ -25,9 +25,9 @@ export default function FreeAudit() {
             <li>A review of your Google Business Profile (Maps listing)</li>
             <li>Where you rank today for your main keywords</li>
             <li>How you compare with 2–3 local competitors</li>
-            <li>A short, prioritised list of fixes — useful whether or not you hire me</li>
+            <li>A short, prioritised list of fixes, useful whether or not you hire me</li>
           </ul>
-          <p>No website yet? Request the audit anyway — I'll review your Google presence and competitors.</p>
+          <p>No website yet? Request the audit anyway, I'll review your Google presence and competitors.</p>
 
           <h2 style={{ marginTop: 36 }}>Request your audit</h2>
           <EnquiryForm type="Free SEO Audit" />

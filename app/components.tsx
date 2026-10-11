@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { site, whatsappLink } from "@/lib/site";
-import { cities, cityPath } from "@/lib/cities";
+import { majorCities, cityPath } from "@/lib/cities";
 import { services } from "@/lib/services";
 import { MobileMenu } from "./MobileMenu";
 
@@ -73,7 +73,7 @@ export function Footer() {
         <div>
           <p className="footer-title">Cities</p>
           <ul>
-            {cities.map((c) => (
+            {majorCities.map((c) => (
               <li key={c.slug}>
                 <Link href={cityPath(c.slug)}>SEO in {c.name}</Link>
               </li>
@@ -120,12 +120,21 @@ export function WhatsAppButton() {
   );
 }
 
-export function CTA({ title = "Get a free SEO audit for your business", text }: { title?: string; text?: string }) {
+export function CTA({
+  title = "Get a free SEO audit for your business",
+  text,
+  eyebrow,
+}: {
+  title?: string;
+  text?: string;
+  eyebrow?: string;
+}) {
   return (
     <section className="cta">
       <div className="container">
+        {eyebrow && <p className="eyebrow">{eyebrow}</p>}
         <h2>{title}</h2>
-        <p>{text ?? "Find out what's stopping your website from ranking — with a clear, plain-language action list. No obligation."}</p>
+        <p>{text ?? "Find out what's stopping your website from ranking, with a clear, plain-language action list. No obligation."}</p>
         <div className="btn-row">
           <Link href="/free-seo-audit/" className="btn btn-light">
             Request Free Audit
@@ -139,10 +148,10 @@ export function CTA({ title = "Get a free SEO audit for your business", text }: 
   );
 }
 
-export function FAQ({ items }: { items: { q: string; a: string }[] }) {
+export function FAQ({ items, wide = false }: { items: { q: string; a: string }[]; wide?: boolean }) {
   return (
     <section className="section">
-      <div className="container narrow">
+      <div className={wide ? "container" : "container narrow"}>
         <h2>Frequently asked questions</h2>
         {items.map((f) => (
           <details key={f.q} className="faq">

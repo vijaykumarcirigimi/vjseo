@@ -18,7 +18,7 @@ export const industries: Industry[] = [
     challenges: [
       "Big property portals dominate the top results",
       "Every project needs its own page, but most builders have one generic site",
-      "Buyers search by locality, budget and BHK — not by builder name",
+      "Buyers search by locality, budget and BHK, not by builder name",
     ],
     approach: [
       "Project and locality pages targeting \"flats in <area>\" and \"plots in <area>\" searches",
@@ -52,7 +52,7 @@ export const industries: Industry[] = [
     name: "Education & Coaching",
     short: "For schools, colleges and coaching institutes.",
     intro:
-      "Students and parents compare institutes online — courses, results, fees and reviews. Education SEO helps you get found well before admission season.",
+      "Students and parents compare institutes online, courses, results, fees and reviews. Education SEO helps you get found well before admission season.",
     challenges: [
       "Demand is seasonal and competition peaks around admissions",
       "Course pages are often missing or thin",
@@ -71,7 +71,7 @@ export const industries: Industry[] = [
     name: "Aquaculture & Exports",
     short: "For hatcheries, feed suppliers, aqua labs and seafood exporters.",
     intro:
-      "Andhra Pradesh is one of India's largest aquaculture regions. Buyers and farmers search online for suppliers — SEO helps your business reach them across India and abroad.",
+      "Andhra Pradesh is one of India's largest aquaculture regions. Buyers and farmers search online for suppliers, SEO helps your business reach them across India and abroad.",
     challenges: [
       "Most aqua businesses rely only on word of mouth",
       "Buyers are spread across states and countries",

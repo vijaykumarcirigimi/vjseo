@@ -16,7 +16,7 @@ export default function Privacy() {
           <p>This policy explains how {site.name} ({site.url}) handles your information.</p>
           <h2>What we collect</h2>
           <p>
-            When you submit a form, we collect the details you provide — such as your name, phone number, email, website,
+            When you submit a form, we collect the details you provide, such as your name, phone number, email, website,
             city and message. We use them only to respond to your enquiry and provide our services.
           </p>
           <h2>How we store it</h2>

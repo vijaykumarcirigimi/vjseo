@@ -2,7 +2,7 @@ import { Breadcrumbs, CTA, PageHero } from "../components";
 
 export const metadata = {
   title: "How I Work – SEO Process",
-  description: "A clear, step-by-step SEO process for Andhra Pradesh businesses — from free audit to monthly reporting.",
+  description: "A clear, step-by-step SEO process for Andhra Pradesh businesses, from free audit to monthly reporting.",
   alternates: { canonical: "/how-i-work/" },
 };
 
@@ -16,7 +16,7 @@ export default function HowIWork() {
           <ol className="steps">
             <li>
               <h3>Free audit & call</h3>
-              <p>I review your website, Google Business Profile and local competitors, then walk you through what I found — in plain language.</p>
+              <p>I review your website, Google Business Profile and local competitors, then walk you through what I found, in plain language.</p>
             </li>
             <li>
               <h3>Baseline & goals</h3>
@@ -24,7 +24,7 @@ export default function HowIWork() {
             </li>
             <li>
               <h3>Keyword & competitor research</h3>
-              <p>I find what your customers actually search — in English and Telugu — and what it takes to beat the businesses ranking today.</p>
+              <p>I find what your customers actually search, in English and Telugu, and what it takes to beat the businesses ranking today.</p>
             </li>
             <li>
               <h3>Fix the foundations</h3>
@@ -36,7 +36,7 @@ export default function HowIWork() {
             </li>
             <li>
               <h3>Monthly reporting</h3>
-              <p>A short monthly report showing what was done, what changed and what's next — plus WhatsApp updates in between.</p>
+              <p>A short monthly report showing what was done, what changed and what's next, plus WhatsApp updates in between.</p>
             </li>
           </ol>
 
@@ -44,7 +44,7 @@ export default function HowIWork() {
           <ul className="check">
             <li>Buy spammy backlink packages</li>
             <li>Create fake reviews or fake listings</li>
-            <li>Promise "#1 on Google guaranteed" — nobody honest can</li>
+            <li>Promise "#1 on Google guaranteed", nobody honest can</li>
             <li>Lock you into long contracts</li>
           </ul>
         </div>

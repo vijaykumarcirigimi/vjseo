@@ -1,5 +1,5 @@
 // ============================================================
-//  SITE SETTINGS — edit these values, everything else updates.
+//  SITE SETTINGS, edit these values, everything else updates.
 // ============================================================
 
 export const site = {

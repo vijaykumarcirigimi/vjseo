@@ -12,7 +12,7 @@ const faqs = [
   { q: "Is there a minimum contract?", a: "No long lock-in. Plans are month-to-month, though SEO works best when you commit to at least 3–6 months." },
   { q: "Are there any setup fees?", a: "No hidden setup fees. One-off work like a website rebuild is quoted separately and agreed upfront." },
   { q: "Do prices include GST?", a: "Prices shown are before GST, which is added where applicable." },
-  { q: "Can I get a one-time service instead of a monthly plan?", a: "Yes — SEO audits, Google Business Profile setup and technical fixes can be done as one-time projects." },
+  { q: "Can I get a one-time service instead of a monthly plan?", a: "Yes, SEO audits, Google Business Profile setup and technical fixes can be done as one-time projects." },
 ];
 
 export default function Pricing() {

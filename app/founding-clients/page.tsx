@@ -14,7 +14,7 @@ export default function FoundingClients() {
       <Breadcrumbs items={[{ name: "Founding Clients", href: "/founding-clients/" }]} />
       <PageHero
         title="Founding Client Offer"
-        sub="I'm building my portfolio of Andhra Pradesh case studies — and offering a small number of businesses full SEO at a reduced rate to do it."
+        sub="I'm building my portfolio of Andhra Pradesh case studies, and offering a small number of businesses full SEO at a reduced rate to do it."
       />
       <section className="section">
         <div className="container narrow">

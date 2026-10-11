@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { site } from "@/lib/site";
-import { cities, cityPath } from "@/lib/cities";
+import { cities, majorCities, cityPath } from "@/lib/cities";
 import { services } from "@/lib/services";
 import { industries } from "@/lib/industries";
 import { CTA, FAQ, JsonLd, businessSchema } from "./components";
@@ -12,9 +12,9 @@ export const metadata = {
 
 const faqs = [
   { q: "What does an SEO expert do?", a: "An SEO expert improves your website and Google Business Profile so your business appears higher in Google search and Google Maps when customers look for your products or services." },
-  { q: "Which cities in Andhra Pradesh do you cover?", a: "All of Andhra Pradesh. There are dedicated pages for Visakhapatnam, Vijayawada, Guntur, Tirupati and Nellore, and businesses in every other city and town are welcome." },
+  { q: "Which cities in Andhra Pradesh do you cover?", a: "All of Andhra Pradesh. There are dedicated pages for every major city and district town, from Visakhapatnam and Vijayawada to Kurnool and Anantapur, and businesses anywhere else in the state are welcome too." },
   { q: "How soon will I see results?", a: "Local SEO improvements often show within 2–3 months. Competitive keywords usually take 4–6 months. You'll get monthly reports so you can see progress." },
-  { q: "Do you offer SEO in Telugu?", a: "Yes. Telugu SEO is a core service — many customers in AP search in Telugu and very few businesses target them." },
+  { q: "Do you offer SEO in Telugu?", a: "Yes. Telugu SEO is a core service, many customers in AP search in Telugu and very few businesses target them." },
 ];
 
 export default function Home() {
@@ -39,15 +39,15 @@ export default function Home() {
         <div className="container">
           <h2>SEO services in your city</h2>
           <div className="grid grid-3">
-            {cities.map((c) => (
+            {majorCities.map((c) => (
               <Link key={c.slug} href={cityPath(c.slug)} className="card">
                 <h3>SEO in {c.name}</h3>
                 <p>{c.telugu} · {c.region}</p>
               </Link>
             ))}
             <Link href="/seo-services-andhra-pradesh/" className="card">
-              <h3>Other AP cities →</h3>
-              <p>Rajahmundry, Kakinada, Kurnool, Kadapa, Anantapur and more</p>
+              <h3>All {cities.length} AP cities &amp; towns →</h3>
+              <p>Kurnool, Kadapa, Anantapur, Eluru, Ongole and more</p>
             </Link>
           </div>
         </div>
@@ -72,11 +72,11 @@ export default function Home() {
         <div className="container narrow">
           <h2>Why work with a local SEO expert?</h2>
           <ul className="check">
-            <li><strong>I know AP search behaviour</strong> — Telugu searches, district towns, seasonal demand like admissions and pilgrim seasons.</li>
-            <li><strong>Plain-language reporting</strong> — monthly reports and WhatsApp updates, no jargon.</li>
-            <li><strong>No long lock-in contracts</strong> — month-to-month plans.</li>
-            <li><strong>Safe, Google-approved methods</strong> — no spammy backlinks or tricks that risk penalties.</li>
-            <li><strong>Direct access</strong> — you work with me, not a rotating account manager.</li>
+            <li><strong>I know AP search behaviour</strong>, Telugu searches, district towns, seasonal demand like admissions and pilgrim seasons.</li>
+            <li><strong>Plain-language reporting</strong>, monthly reports and WhatsApp updates, no jargon.</li>
+            <li><strong>No long lock-in contracts</strong>, month-to-month plans.</li>
+            <li><strong>Safe, Google-approved methods</strong>, no spammy backlinks or tricks that risk penalties.</li>
+            <li><strong>Direct access</strong>, you work with me, not a rotating account manager.</li>
           </ul>
           <p><Link href="/how-i-work/">See how I work →</Link></p>
         </div>

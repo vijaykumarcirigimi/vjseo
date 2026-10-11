@@ -7,3 +7,6 @@ next-env.d.ts
 !.env.example
 .vercel
 /hostinger*.png
+/mm*.png
+# Original hero photos and design mockups (compressed copies live in public/images/cities)
+/cities/

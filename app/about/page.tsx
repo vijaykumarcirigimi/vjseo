@@ -15,9 +15,9 @@ export default function About() {
       <section className="section">
         <div className="container narrow">
           {/* TODO: add your photo here, e.g. <img src="/vijay.jpg" alt="..." width={240} height={240} /> */}
-          {/* TODO: replace the paragraphs below with your own story — real details build trust. */}
+          {/* TODO: replace the paragraphs below with your own story, real details build trust. */}
           <p>
-            I help businesses across Andhra Pradesh get found on Google — from clinics in Guntur to real estate projects in
+            I help businesses across Andhra Pradesh get found on Google, from clinics in Guntur to real estate projects in
             Vizag and coaching centres in Vijayawada.
           </p>
           <p>

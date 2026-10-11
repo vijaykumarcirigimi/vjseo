@@ -42,15 +42,17 @@ export default function APHub() {
         </div>
       </section>
 
+      {upcomingCities.length > 0 && (
       <section className="section soft">
         <div className="container narrow">
           <h2>Other cities and towns I serve</h2>
-          <p>Dedicated pages for these cities are coming soon — but I already work with businesses in all of them.</p>
+          <p>Dedicated pages for these cities are coming soon, but I already work with businesses in all of them.</p>
           <ul className="tags">
             {upcomingCities.map((c) => <li key={c}>{c}</li>)}
           </ul>
         </div>
       </section>
+      )}
 
       <section className="section">
         <div className="container narrow">
@@ -61,11 +63,11 @@ export default function APHub() {
           </p>
           <p>
             <strong>Coastal Andhra</strong> (Vijayawada, Guntur, the Godavari districts, Nellore) is the most commercially
-            competitive region — trade, hospitals, education, aquaculture and real estate around Amaravati.
+            competitive region, trade, hospitals, education, aquaculture and real estate around Amaravati.
           </p>
           <p>
             <strong>Rayalaseema</strong> (Tirupati, Kurnool, Kadapa, Anantapur) has pilgrim and tourism demand in Tirupati,
-            plus growing local markets where many businesses still have no online presence — an early-mover opportunity.
+            plus growing local markets where many businesses still have no online presence, an early-mover opportunity.
           </p>
         </div>
       </section>
